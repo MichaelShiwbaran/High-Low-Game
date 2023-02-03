@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+
+
+.hlgame{
+   padding-left: 600px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::selection{
+  background: rgb(0,123,255,0.3);
+}
+.navbar .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 30px;
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  padding: 25px 0;
+  transition: all 0.3s ease;
+}
+.navbar.sticky{
+  background: #020710;
+  padding: 10px 0;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+.navbar .content{
+  display: inline-flex;
+  position: relative;
+  right: 330px;
+  align-content: center;
+}
+.navbar .logo a{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  top: 10px;
+  text-decoration: none;
+}
+.navbar .menu-list{
+  display: inline-flex;
+  position: relative;
+  left: 650px;
+  top: 17px;
+  align-content: center;
+}
+
+/*Team*/
+.team{
+   margin-top: -200px;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   
+}
+
+.team p{
+  padding-top: 10px;
+  text-align: inherit;
+}
+
+.team img{
+   width: 250px;
+   height: 250px;
+   /*Object fit will crop and center image based on width and height*/
+   object-fit: cover;
+   border-radius: 50%;
+   margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #000000;
+}
+
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #9e6a3a;
+}
+.footer-widget ul li a {
+  color: #ffff;
+  text-transform: capitalize;
+
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #8999b0;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+::placeholder {
+  color: white;
+}
+
+.subscribe-form button {
+    
+    
+    background: #fc8f13;
+    padding: 13px 20px;
+    border: 1px solid #000000;
+    
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #eb1580;
+  padding: 25px 0;
+  
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffff;
+  position: relative;
+  bottom: 10px;
+  align-content: center;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
+  top: 10px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #ffff;
+}
+
+.menu-list li{
+  list-style: none;
+}
+.menu-list li a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.menu-list li a:hover{
+  color: lightblue;
+}
+.banner{
+  background: url("https://townsquare.media/site/151/files/2018/01/Hudson-Middle-School.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  
+  
+
+}
+
+.banner3 {
+   background: url("https://www.xmple.com/wallpaper/red-solid-color-one-colour-single-plain-3840x2160-c-310d12-f-24.svg" )no-repeat;
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  bottom: 115px;
+}
+
+
+
+
+.welcome {
+  text-align: center;
+  position: relative;
+  bottom: 280px;
+  color: white;
+}
+
+.world {
+ position: absolute;
+ top: 1200px;
+ left: 915px;
+}
+
+.problem {
+  margin-top: -100px;
+  width: 50%;
+  height: 500px;
+  padding-right: 10px;
+
+}
+
+
+
+.solving {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 1390px;
+  left: 800px;
+  padding-right: 10px;
+
+}
+
+.joinourcommunity {
+  color: rgb(236, 233, 233);
+  text-align: center;
+  position: relative;
+  bottom: 400px;
+  
+}
+
+.joinourcommunity h3{
+  position: relative;
+  left: 40px;
+  color: rgb(236, 233, 233);
+}
+
+.joinourcommunity .btn {
+  color: white;
+}
+
+.about2 .title{
+  font-size: 38px;
+  font-weight: 700;
+  position: relative;
+}
+  
+.about .title{
+  font-size: 28px;
+  font-weight: 700;
+  position: absolute;
+  top: 1100px;
+  color: #000000;
+}
+.about p{
+  padding-right: 650px;
+  text-align: justify;
+  color: white;
+  position: absolute;
+  top: 800px;
+}
+
+.icon{
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.menu-list .cancel-btn{
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+#Photo{
+border-style: solid;
+    border-color: #555;
+    border-radius: 50%;
+}
+
+
+footer
+{
+  background-color: rgb(66, 10, 15);
+  font-family: 'Quicksand', sans-serif;
+color:white;
+  margin-top: 50px;
+}
+
+footer p
+{
+  display: inline-block;
+}
+
+/* Footer Icons */
+footer .fi-cnsuxl-exclamation-mark-rounded
+{
+  color: mintcream;
+}
+
+footer .fi-cwsuxl-check
+{
+  color: rgb(212, 211, 153);
+}
+
+.fi-snsuxl-facebook
+{
+  color: #4267B2;
+}
+
+.fi-snsuxl-linkedin
+{
+  color: #0077B5;
+}
+
+.fi-xnsuxl-twitter
+{
+  color: #1DA1F2;
+}
+
+footer a
+{
+  padding-right: 10px;
+}
+
+/* Footer Input Form */
+.form-control, #Submit1
+{
+  margin-top: 10px;
+}
+
+/* This is for the high low game*/

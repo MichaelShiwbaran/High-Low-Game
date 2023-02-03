@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Maria's Classroom</title>
+    <link rel="shortcut icon" href="Oceanpurity.png">
+
+    <!-- Images for Services -->
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+    <!-- Local CSS -->
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo a">
+        <img src="Apple.ng.png" width="50px" height="50px"> 
+        <a href="#">Maria's Classroom</a>
+       
+      </div>
+      
+      
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="index.html">Home</a></li>
+        
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <div class="banner"></div>
+  <div class="welcome">
+    <h1>Welcome </h1>
+  <p>Let's start learning</p>
+  
+
+  </div>
+  <div class="banner3"></div>
+    <div class="about">
+      <div class="content ml-5 mr-5">
+      <div id='about' class="title"> About Us: Here at Maria's middle school, we thrive to have everey student learn to the best of their abilties, and to never give up on their goals. Our students' main focus is on math, and we reward each of our students everytime we complete a new assignment. </div>  
+      
+      <img src="https://i.pinimg.com/originals/75/3b/72/753b72baee69d45c136d77d3760faca9.jpg" width="500px" height="390px" class="world">
+  </div>
+  </div>
+      
+
+<a class="btn btn-warning" href="students.html" role="button">About our Students</a>
+<a class="btn btn-danger" href="highlow.html" role="button"> Let's Play!</a>
+
+  
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Team -->
+   <section id="team" class="team ml-5 mr-5">
+       
+
+       <br>
+       <br>
+       
+   </section>
+
+<!-- Footer -->
+    <footer>
+      <div class = "row">
+        <!-- Contact Us Column -->
+        <div class = "col-md-4">
+          <h5>Contact Us</h5>
+
+          <i class="fi-xnsuxl-house-solid"></i>
+          <p>Address: Allentown,PA, 12332</p>
+
+          <br />
+
+          <i class="fi-xnsuxl-close-envelope-solid"></i>
+          <p>Email: HudsonSchool@gmail.com</p>
+
+          <br />
+
+          <i class="fi-xnsrxl-phone-solid"></i>
+          <p>Phone Number: (765) 947-8098</p>
+        </div>
+
+        <!-- About Column -->
+        <div class = "col-md-4">
+          <h5>About</h5>
+
+          <i class="fi-cnsuxl-exclamation-mark-rounded"></i>
+            <p>About Us</p>
+
+            <br />
+
+            <i class="fi-xnsuxl-user-lock-solid"></i>
+            <p>Privacy</p>
+
+            <br />
+
+            <i class="fi-cwsuxl-check"></i>
+            <p>Terms and Conditions</p>
+        </div>
+
+        <!-- Social Media Column -->
+        <div class = "col-md-4">
+          <h5>Social Media</h5>
+
+          <a href = "https://twitter.com/"><i class="fi-xnsuxl-twitter"></i></a>
+          <a href = "https://www.facebook.com/"><i class="fi-snsuxl-facebook"></i></a>
+          <a href = "https://www.linkedin.com/"><i class="fi-snsuxl-linkedin"></i></a>
+
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+
+            <div class="input-group-append">
+              <form>
+                <button type="submit" id="Submit1" class="btn btn-light">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+      
+
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+</script>
+
+<!-- jQuery and JS bundle w/ Popper.js -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Local JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
