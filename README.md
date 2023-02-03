@@ -1,1 +1,2 @@
 # High-Low-Game
+This project is a website that uses HTML, CSS, and JavaScript where users can play a game where they guess a number between 1 and 20. The number is randomly generated when the webpage is first launched and will tell the user if they are too high, or too low when they guess. When the correct number is guessed, the correct number changes instantly so the user can continue to play if they choose.
